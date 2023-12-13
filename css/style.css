@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+:root {
+    --primary-color: green;
+}
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Lato', 'sans-serif';
+    color: #333;
+    line-height: 1.6;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color:#333;
+}
+
+h1, h2 {
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+img {
+    width: 100%;
+}
+
+                /* 
+=====================================================================================================
+                HeaDER SECTION
+=====================================================================================================
+*/
+
+.navbar {
+    background-color:var(--primary-color);
+    color: #fff;
+    height: 70px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.navbar a:hover {
+    border-bottom: 2px #fff solid;
+}
+
+.navbar .flex{
+    justify-content: space-between;
+}
+
+                /* 
+=====================================================================================================
+                showcase SECTION
+=====================================================================================================
+*/
+
+
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+}
+
+.showcase {
+    height: 400px;
+    background-color: var(--primary-color);
+    color: #fff;
+    position: relative;
+}
+
+.showcase h1 {
+    font-size: 40px;
+}
+
+.showcase p {
+    margin: 20px 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 300px 200px;
+}
+
+ 
+
+
+
+
+ 
+
