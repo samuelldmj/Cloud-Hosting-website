@@ -155,9 +155,12 @@ img {
   bottom: -70px;
   right: 0;
   left: 0;
-  background: greenyellow;
-  transform: skewY((-3deg));
-  
+  background: #fff;
+  transform: skewY(-4deg);
+  -webkit-transform: skewY(-4deg);
+  -moz-transform: skewY(-4deg);
+  -ms-transform: skewY(-4deg);
+
 
 
 }
@@ -190,6 +193,43 @@ img {
     transform: scale(0.98);
 }
 
+                /* 
+=====================================================================================================
+                stats SECTION
+=====================================================================================================
+*/
+
+.stats {
+    padding-top: 100px;
+}
+
+.grid_3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.text_center{
+    text-align: center;
+}
+
+.my-1 {
+    margin: 1rem 0;
+}
+
+.my-2 {
+    margin: 1.5rem 0;
+}
+
+.my-3 {
+    margin: 2rem 0;
+}
+
+.my-4 {
+    margin: 3rem 0;
+}
+
+.my-5 {
+    margin: 4rem 0;
+}
 
 
 
